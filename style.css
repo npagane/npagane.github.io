@@ -1,0 +1,49 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: dimgray;
+  color: white;
+  font-size: 30px;
+}
+
+#menu {
+  float: right; 
+  position: relative;
+  left: -50%;
+  text-align: left;
+}
+
+#menu ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  left: 50%;
+}
+
+li {
+  float: left;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px 40px;
+}
